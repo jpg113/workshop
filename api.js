@@ -17,7 +17,7 @@ const EXCEL_FILE = 'data/Products.xlsx';
 const UPLOAD_DIR = 'uploads';
 const _SECRET_KEY = 'Gh@$$@anSlaiman';
 
-app.use(cors({ origin: 'http://localhost:5173', credentials: true }));
+app.use(cors({ origin: 'https://jpg113.github.io', credentials: true }));
 app.use(express.json());
 
 if (!fs.existsSync(UPLOAD_DIR)) {
